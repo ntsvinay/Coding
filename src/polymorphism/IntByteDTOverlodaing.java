@@ -14,7 +14,7 @@ public class IntByteDTOverlodaing {
 	}
 
 	public static void main(String[] args) {
-		new IntByteDTOverlodaing().method(10);
+		new IntByteDTOverlodaing().method(1);
 	}
 
 }

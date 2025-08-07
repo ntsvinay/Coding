@@ -15,12 +15,15 @@ public class MultiPalCatch {
 		}
 		catch (IOException e) {
 			// TODO: handle exception
+			e.printStackTrace();
 		}
 		catch (Exception e) {
 			// TODO: handle exception
+			e.printStackTrace();
 		}
 		catch (Throwable e) {
 			// TODO: handle exception
+			e.printStackTrace();
 		}
 	}
 
