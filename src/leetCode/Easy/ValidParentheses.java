@@ -12,14 +12,17 @@ public class ValidParentheses {
 		for (char c : chArr) {
 			if (c == '(' || c == '{' || c == '[') {
 				stack.push(c);
-			} else if (c == ')' && !stack.isEmpty() && stack.pop() == '(') {
-				//stack.pop();
+			} else if (c == ')' && !stack.isEmpty() && stack.getLast() == '(') {
+				System.out.println("("+stack.getLast());
+				stack.pop();
 
-			} else if (c == '}' && !stack.isEmpty() && stack.pop() == '{') {
-				//stack.pop();
+			} else if (c == '}' && !stack.isEmpty() && stack.getLast() == '{') {
+				System.out.println("{"+stack.getLast());
+				stack.pop();
 
-			} else if (c == ']' && !stack.isEmpty() && stack.pop() == '[') {
-				//stack.pop();
+			} else if (c == ']' && !stack.isEmpty() && stack.getLast() == '[') {
+				System.out.println("["+stack.getLast());
+				stack.pop();
 			}
 		}
 		return stack.isEmpty();
@@ -27,6 +30,6 @@ public class ValidParentheses {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(new ValidParentheses().isValid("({})"));
+		System.out.println(new ValidParentheses().isValid("[({})]"));
 	}
 }

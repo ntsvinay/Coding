@@ -3,6 +3,7 @@ package sixPlusYrExp.streamApi;
 public class Emp {
     String empName;
     int empId;
+    String empLastName;
 
     public String getEmpName() {
         return empName;
@@ -46,6 +47,14 @@ public class Emp {
 
     public String getEmpPost() {
         return empPost;
+    }
+
+    public String getEmpLastName() {
+        return empLastName;
+    }
+
+    public void setEmpLastName(String empLastName) {
+        this.empLastName = empLastName;
     }
 
     public void setEmpPost(String empPost) {

@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StreamFun {
-    public static void main(String[] args) {
+
+    public List<?> getEmpList()
+    {
         Emp empDetails= new Emp();
         empDetails.setEmpAge(15);
         empDetails.setEmpId(1);
@@ -37,7 +39,13 @@ public class StreamFun {
         empDetailsList.add(empDetails1);
         empDetailsList.add(empDetails2);
 
-       List<Emp> filtered= empDetailsList.stream().filter(emp->emp.empAge>25 && emp.empSalary>=10000).toList();
+        return empDetailsList;
+    }
+    public static void main(String[] args) {
+
+        List<Emp> empDetailsList= (List<Emp>) new StreamFun().getEmpList();
+        List<Emp> filtered= empDetailsList.stream().
+                filter(emp->emp.empAge>25 && emp.empSalary>=10000).toList();
 
        for(Emp emp:filtered) {
            System.out.println(emp.empId);

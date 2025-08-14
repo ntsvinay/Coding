@@ -4,7 +4,6 @@ public class AddTwoSameContinouNumberPlaceZeroAndShiftZeroToLeft {
 
 	public static void main(String[] args) {
         // TODO Auto-generated method stub
-
         int[] number = {1, 2, 3,3, 4, 5, 5, 5, 6, 7, 8, 8};
 
         int i;
