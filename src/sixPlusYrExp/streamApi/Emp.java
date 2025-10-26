@@ -4,9 +4,29 @@ public class Emp {
     String empName;
     int empId;
     String empLastName;
+    String gender;
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 
     public String getEmpName() {
         return empName;
+    }
+
+    public Emp(String empName, int empId, String empLastName, String empMobileNumber, int empSalary, int empAge, String empPost,String gender) {
+        this.empName = empName;
+        this.empId = empId;
+        this.empLastName = empLastName;
+        this.empMobileNumber = empMobileNumber;
+        this.empSalary = empSalary;
+        this.empAge = empAge;
+        this.empPost = empPost;
+        this.gender = gender;
     }
 
     public void setEmpName(String empName) {

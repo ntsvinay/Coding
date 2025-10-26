@@ -18,19 +18,17 @@ public class IntIntegerParam {
 		System.out.println(obj + "--from String");
 	}
 
-	/*
-	 * public void nullCheck(char[] obj) { System.out.println(obj + "--from char");
-	 * }
-	 */
 
-	/*
-	 * public void nullCheck(Integer obj) { System.out.println(obj + "--from char");
-	 * }
-	 */
+	 public void nullCheck(char[] obj) { System.out.println(obj + "--from char");
+	  }
+
+
+	  public void nullCheck(Integer obj) { System.out.println(obj + "--from char");
+	  }
 //above method will occur ambiguity error
 	public static void main(String[] args) {
 		new IntIntegerParam().intParam(1, 1);
-		new IntIntegerParam().nullCheck(null);
+		new IntIntegerParam().nullCheck("null");
 	}
 
 }

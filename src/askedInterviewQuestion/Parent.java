@@ -1,11 +1,13 @@
 package askedInterviewQuestion;
 import java.io.*;  
 class Parent{  
-  void msg()throws ArithmeticException{System.out.println("parent");}  
+  void msg()throws ArithmeticException{System.out.println("parent");}
 }  
   
-class TestExceptionChild2 extends Parent{  
-  void msg()throws ArithmeticException{System.out.println("child");}  
+class TestExceptionChild2 extends Parent{
+
+    @Override
+  void msg()throws ArithmeticException{System.out.println("child");}
   
   public static void main(String args[]){  
    Parent p=new TestExceptionChild2();  
