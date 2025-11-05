@@ -1,4 +1,4 @@
-infosys
+7infosys
 1 round
 diff between QueryParam vs PathParam
 how circuitBreaker works if one service is down how you handle client/users
@@ -25,4 +25,7 @@ l1
 9. arraylist vs cowal
 10. Consumer group 
 11. broker topic partitions 
-12. 
+12. how to handle transaction in springboot
+13. what is api gateway and why should we use it
+14. how you deployed your application 
+15. what do you use for testing
