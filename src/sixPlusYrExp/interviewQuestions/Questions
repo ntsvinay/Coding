@@ -11,3 +11,18 @@ Can you explain how Garbage Collection (GC) works in Java
 
 2 round
 how to integrate two db with our single microservices
+
+NeoSoft
+l1
+1- composition vs inheritance use case
+2- truncate drop delete
+3- overloading overriding
+4- thread life cycle 
+5- java 8 feature 
+6- hashmap internal working
+7- how priority queue maintain order 
+8. how to handle deadlock if already occur 
+9. arraylist vs cowal
+10. Consumer group 
+11. broker topic partitions 
+12. 
