@@ -29,3 +29,13 @@ l1
 13. what is api gateway and why should we use it
 14. how you deployed your application 
 15. what do you use for testing
+
+**Coforge 
+1- hash map vs treemap vs concurrent hashmap 
+2- design patterns 
+3- singleton design patterns 
+4- executiveservices
+5- functional interface
+6- map,flatmap,reduce,filter
+7- what use for unit testcase write controller class test
+8- how did youbfix if face any issue on prod
